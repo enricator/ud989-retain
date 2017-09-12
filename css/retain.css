@@ -28,6 +28,21 @@
 
 .note-date {
     font-size:0.7em;
-    margin-bottom: 10px;
+    font-style: italic;
+    //margin-bottom: 10px;
     display: block;
+}
+
+.note-close {
+    // color: #fff;
+    font-weight: 300; 
+    font-family: sans-serif;
+    text-align: right;
+    // margin-top: -10px;
+    line-height: .2em;
+    cursor: pointer;
+    color: #ed143d;
+}
+.note-close:after {
+    content: 'x';
 }
